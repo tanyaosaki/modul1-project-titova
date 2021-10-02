@@ -1,0 +1,1436 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: roboto;
+  font-size: 10px;
+  margin: 0;
+  width: 100%;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+main {
+  min-width: 320px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*header*/
+
+header {
+  padding: 36px 0px 0 9.33vw;
+  width: 100vw;
+}
+
+@media (max-width: 374px) {
+  header {
+    padding: 28px 5.33vw 0 7.2vw;
+  }
+}
+
+.logo {
+  width: 13.87vw;
+  margin-bottom: 45px;
+}
+
+.timing {
+  display: flex;
+  margin-bottom: 8px;
+  margin-top: 0;
+  align-items: center;
+  width: 61.33vw;
+}
+
+.planet-img {
+  width: 2.67vw;
+  margin-right: 3.75px;
+}
+
+.clock-img {
+  width: 2.67vw;
+  margin-right: 3.75px;
+}
+
+.calendar-img {
+  width: 2.67vw;
+  margin-right: 3.75px;
+}
+
+.timing-item-one {
+  display: flex;
+  width: 19.47vw;
+  line-height: 2.93vw;
+  margin-right: 14px;
+  font-size: 2.67vw;
+}
+
+.timing-item-two {
+  display: flex;
+  width: 15.47vw;
+  line-height: 2.93vw;
+  margin-right: 15px;
+  font-size: 2.67vw;
+}
+
+.timing-item-three {
+  display: flex;
+  width: 17.87vw;
+  line-height: 2.93vw;
+  font-size: 2.67vw;
+}
+
+.how-watch-movies {
+  font-family: roboto slab;
+  font-size: 9.87vw;
+  line-height: 9.87vw;
+  margin-top: 0;
+  margin-bottom: 20px;
+  width: 71vw;
+}
+
+.watch-film-item {
+  width: 55.47vw;
+  font-size: 2.67vw;
+  line-height: 4vw;
+}
+
+.director-img {
+  width: 37.87vw;
+  margin-left: 44vw;
+}
+
+.watch-film {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0;
+  margin-bottom: 38.64px;
+}
+
+.quote {
+  background-color: #1e4681;
+  border-radius: 0.55vw;
+  color: white;
+  line-height: 3.75vw;
+  width: 60vw;
+  height: 24.8vw;
+  padding: 9px 3.2vw 9px 3.2vw;
+  box-sizing: border-box;
+  font-weight: 300;
+}
+
+.quote-item {
+  margin: 0;
+  font-family: roboto slab;
+  font-size: 2.93vw;
+}
+
+.author {
+  margin-top: 6px;
+  font-size: 2.67vw;
+  text-align: end;
+  font-family: roboto;
+}
+
+/*about-course*/
+
+.about-course {
+  margin: 0px 8vw 0px 9.6vw;
+}
+
+.about-course-title {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6.93vw;
+  line-height: 101.38%;
+  margin-top: 56px;
+  margin-bottom: 25.7px;
+  padding: 0px;
+}
+
+.main-info {
+  padding: 0px;
+}
+
+.all-text {
+  margin-top: 18px;
+  width: 100%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.2vw;
+  line-height: 150%;
+}
+
+.text {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.main-image {
+  text-align: center;
+  margin-top: 19px;
+  margin-bottom: 36px;
+  width: 100%;
+}
+
+.main-image img {
+  min-width: 45.6vw;
+  width: 22%;
+  margin-top: -5px;
+  margin-left: -5px;
+}
+
+.shedule {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0px;
+}
+
+.shedule h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.2vw;
+  line-height: 130%;
+  margin-top: 8px;
+  margin-bottom: 2px;
+}
+
+.shedule div {
+  width: 22%;
+  font-size: 2.67vw;
+  margin-right: 9.07vw;
+  width: 22.4vw;
+}
+
+.shedule p {
+  margin-top: 0px;
+  margin-bottom: 19px;
+}
+
+.shedule-image {
+  display: none;
+}
+
+/*class-format*/
+
+.class-format {
+  margin: 50px 0px 0px 9.6vw;
+}
+
+.class-format h1 {
+  font-family: Roboto Slab;
+  font-size: 6.93vw;
+  line-height: 101.38%;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.description-of-classes {
+  width: 55%;
+}
+
+.class-format h3 {
+  font-family: Roboto;
+  font-size: 3.2vw;
+  line-height: 130%;
+  color: #1e4681;
+  margin-bottom: 1px;
+}
+
+.class-format p {
+  font-family: Roboto;
+  font-size: 2.67vw;
+  line-height: 130%;
+  margin: 0px 2.67vw 34px 0px;
+}
+
+/*knowledge*/
+
+.knowledge {
+  margin: 78px 0px 0px 9.6vw;
+}
+
+.knowledge h1 {
+  font-family: Roboto Slab;
+  font-size: 6.93vw;
+  line-height: 101.38%;
+  margin-bottom: 27px;
+}
+
+.knowledge ul {
+  font-size: 3.2vw;
+  padding: 0px;
+  margin: 0px;
+  margin-right: 8vw;
+  margin-left: 3vw;
+}
+
+.knowledge span {
+  display: block;
+  font-family: Roboto;
+  font-size: 3.2vw;
+  line-height: 150%;
+}
+
+/*course-program*/
+
+.course-program {
+  margin: 0px;
+  padding: 0px;
+}
+
+.block-4-title {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6.93vw;
+  line-height: 6.93vw;
+  margin: 42px 8.53vw 53px 9.6vw;
+  padding: 0px;
+}
+
+.program-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0px 0px 47.16px 25.33vw;
+  padding: 0px;
+}
+
+.program-container-item {
+  width: 49.6vw;
+  height: 40.8vw;
+  box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+  border-radius: 7.8%;
+  margin: 0;
+  margin-bottom: 24.16px;
+  padding: 0px;
+}
+
+.program-picture {
+  width: 100%;
+}
+
+.block-4-subtitle {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 3.73vw;
+  line-height: 97%;
+  margin-top: 3%;
+  margin-left: 4%;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.program-date-info {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 3.2vw;
+  line-height: 130%;
+  margin-left: 4%;
+  padding: 0px;
+  margin-top: 10%;
+}
+
+.program-date-info-last {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 3.2vw;
+  line-height: 130%;
+  margin-left: 4%;
+  padding: 0px;
+  margin-top: 3%;
+}
+
+/*reviews*/
+
+.reviews {
+  background-color: #efefef;
+  padding: 42px 0px 53px 9.6vw;
+  margin: 0px;
+  width: 100%;
+}
+
+.course-count {
+  font-size: 6.93vw;
+  line-height: 6.93vw;
+  font-family: roboto slab;
+  margin: 0 0 30px 0;
+  width: 65.6vw;
+}
+
+.reviews_item {
+  width: 82.13vw;
+  height: 66.13vw;
+  background-color: #ffffff;
+  border-radius: 3.73vw;
+  box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+  padding: 19px 25px 13px 21px;
+  box-sizing: border-box;
+}
+
+.review-text {
+  font-size: 2.67vw;
+  line-height: 4vw;
+  margin: 0 0 15px 0;
+}
+
+.reviews_avatar {
+  width: 21.33vw;
+  margin-right: 3.73vw;
+}
+
+.name-of-reviewer {
+  font-family: roboto slab;
+  font-weight: 700;
+  font-size: 3.73vw;
+  margin-bottom: 18px;
+}
+
+.author-of-review {
+  display: flex;
+}
+
+.facebook-icon {
+  width: 4vw;
+}
+
+/*cost*/
+
+.cost {
+  padding: 61px 0px 53px 9.6vw;
+  width: 100vw;
+  background: #9dc9c8;
+  margin: 0px;
+}
+
+.block-cost-title {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  max-width: 60%;
+  font-size: 6.93vw;
+  line-height: 6.93vw;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 8.7%;
+}
+
+.cost-container-flex {
+  display: flex;
+}
+
+.cost-container-flex-item {
+  max-width: 37%;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 8%;
+}
+
+.cost-paragraph {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.67vw;
+  line-height: 101.38%;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 5px;
+}
+
+.cost-subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.2vw;
+  line-height: 101.38%;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 5px;
+}
+
+.cost-number {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9.93vw;
+  line-height: 101.38%;
+  margin: 0px;
+  margin-bottom: 8.7%;
+  padding: 0px;
+}
+
+/*footer*/
+
+footer {
+  background-color: #000000;
+  padding: 23px 52.27vw 19px 14.93vw;
+  margin: 0px;
+}
+
+.logo-footer {
+  width: 14.13vw;
+  margin: 0 0 14px 0;
+}
+
+.socials {
+  width: 29vw;
+  margin: 0 0 47.66px 0;
+}
+
+.inst-footer {
+  width: 4vw;
+  margin-right: 2.13vw;
+}
+
+.facebook-footer {
+  width: 4vw;
+  margin-right: 2.4vw;
+}
+
+.vk-footer {
+  width: 4vw;
+  margin-right: 2.93vw;
+}
+
+.viber-footer {
+  width: 4vw;
+}
+
+.contacts {
+  width: 38vw;
+  margin: 0 0 48px 0;
+}
+
+.phone {
+  margin-bottom: 5px;
+}
+
+.phone-img {
+  width: 3.47vw;
+  margin-right: 2.67vw;
+}
+
+.phone-number {
+  width: 28.53vw;
+  text-decoration: none;
+  color: white;
+  font-size: 3.2vw;
+}
+
+.letter-img {
+  width: 3.47vw;
+  margin-right: 2.67vw;
+}
+
+.mail-address {
+  width: 31.47vw;
+  text-decoration: none;
+  color: white;
+  font-size: 3.2vw;
+}
+
+.data {
+  font-size: 2.67vw;
+  width: 30.4vw;
+  color: white;
+  margin: 0;
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+  /*header*/
+
+  header {
+    padding: 22px 14.31vw 0 7.16vw;
+  }
+
+  .logo {
+    width: 6.55vw;
+  }
+
+  .planet-img {
+    width: 1.31vw;
+    margin-right: 5px;
+  }
+
+  .clock-img {
+    width: 1.31vw;
+    margin-right: 6px;
+  }
+
+  .calendar-img {
+    width: 1.31vw;
+    margin-right: 7px;
+  }
+
+  .timing-item-one {
+    display: flex;
+    width: 9.17vw;
+    margin-right: 18px;
+    font-size: 1.21vw;
+  }
+
+  .timing-item-two {
+    display: flex;
+    width: 6.96vw;
+    margin-right: 24px;
+    font-size: 1.21vw;
+  }
+
+  .timing-item-three {
+    display: flex;
+    width: 8.87vw;
+    font-size: 1.21vw;
+  }
+
+  .how-watch-movies {
+    font-size: 4.64vw;
+    width: 33.47vw;
+    margin-bottom: 23px;
+    line-height: 4.7vw;
+  }
+
+  .watch-film-item {
+    font-size: 1.21vw;
+    width: 25.4vw;
+    line-height: 1.81vw;
+  }
+
+  .director-img {
+    width: 17.74vw;
+    margin-left: 11.39vw;
+  }
+
+  .watch-film {
+    margin-bottom: 51px;
+  }
+
+  .quote {
+    width: 28.23vw;
+    height: 11.65vw;
+    padding: 12px 0.91vw 16px 1.51vw;
+    border-radius: 0.3vw;
+    margin-left: 23.89vw;
+  }
+
+  .quote-item {
+    font-size: 1.41vw;
+    line-height: 1.8vw;
+  }
+
+  .author {
+    margin-top: 7px;
+    font-size: 1.21vw;
+    text-align: end;
+  }
+
+  .about-course {
+    padding: 0px;
+    margin: 0px 9.07vw 0px 7.06vw;
+  }
+
+  .about-course-title {
+    font-size: 3.23vw;
+    margin-bottom: 28.3px;
+  }
+
+  .main-info {
+    display: flex;
+    margin-bottom: 18px;
+    width: 100%;
+  }
+
+  .all-text {
+    width: 46%;
+    font-size: 1.41vw;
+    margin: 0px 9.58vw 0px 0px;
+    padding: 0px;
+  }
+
+  .text {
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 21px;
+  }
+
+  .main-image {
+    margin: 0px;
+    width: 25%;
+  }
+
+  .main-image img {
+    margin: 0px;
+    width: 100%;
+    min-width: 21.37vw;
+    margin: 8px 0px 0px 0px;
+  }
+
+  .shedule {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  .shedule h3 {
+    font-size: 1.51vw;
+    margin-bottom: 4px;
+    margin-top: 42px;
+  }
+
+  .shedule div {
+    width: 20%;
+    margin-right: 4.33vw;
+  }
+
+  .shedule-text {
+    max-width: 100px;
+  }
+
+  .shedule-text p {
+    font-size: 1.11vw;
+  }
+
+  .shedule-image {
+    display: block;
+    justify-content: flex-start;
+  }
+
+  .shedule-image img {
+    position: relative;
+    max-width: 13.61vw;
+  }
+
+  /*class-format*/
+
+  .class-format {
+    margin: 87px 9.07vw 0px 7.06vw;
+  }
+
+  .class-format h1 {
+    font-size: 3.23vw;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .description-of-classes {
+    display: flex;
+    width: 100%;
+  }
+
+  .vebinar {
+    width: 17.14vw;
+    margin-right: 5.24vw;
+  }
+
+  .access {
+    width: 19.66vw;
+    margin-right: 5.24vw;
+  }
+
+  .communication {
+    width: 17.14vw;
+  }
+
+  .class-format h3 {
+    font-family: Roboto;
+    font-size: 1.51vw;
+    line-height: 130%;
+    color: #1e4681;
+    margin-bottom: 4px;
+  }
+
+  .class-format p {
+    font-family: Roboto;
+    font-size: 1.11vw;
+    line-height: 130%;
+  }
+
+  /*knowledge*/
+
+  .knowledge {
+    margin: 87px 9.07vw 0px 7.06vw;
+  }
+
+  .knowledge h1 {
+    font-family: Roboto Slab;
+    font-size: 3.23vw;
+    line-height: 101.38%;
+    margin-bottom: 35px;
+  }
+
+  .knowledge ul {
+    font-size: 1.41vw;
+    margin-right: 30px;
+    width: 45%;
+  }
+
+  .knowledge span {
+    display: block;
+    font-family: Roboto;
+    font-size: 1.41vw;
+    line-height: 150%;
+  }
+
+  /*course-program*/
+
+  .course-program {
+    width: 100%;
+    min-height: 60vh;
+  }
+
+  .block-4-title {
+    font-size: 3.23vw;
+    line-height: 6.93vw;
+    width: 65.6vw;
+    margin: 55px 9.07vw 64px 7.46vw;
+  }
+
+  .program-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin: 0px;
+    padding: 0px 0px 52.6px 4.94vw;
+  }
+
+  .program-container-item {
+    width: 22.5vw;
+    height: 19.5vw;
+    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+    margin-bottom: 24px;
+    margin-right: 2.02vw;
+    padding: 0px;
+  }
+
+  .block-4-subtitle {
+    font-size: 1.71vw;
+    line-height: 97%;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-bottom: 0px;
+  }
+
+  .program-date-info {
+    font-size: 1.41vw;
+    line-height: 130%;
+    margin-top: 10%;
+    margin-left: 4%;
+  }
+
+  .program-date-info-last {
+    font-size: 1.41vw;
+    line-height: 130%;
+    margin-top: 3%;
+    margin-left: 4%;
+  }
+
+  /*reviews*/
+
+  .reviews {
+    background-color: #efefef;
+    padding: 53px 0px 64px 7.46vw;
+    width: 100%;
+  }
+
+  .course-count {
+    font-size: 3.23vw;
+    line-height: 6.93vw;
+    margin: 0 0 30px 0;
+    width: 65.6vw;
+  }
+
+  .reviews_item {
+    width: 46.17vw;
+    height: 26.31vw;
+    border-radius: 1.71vw;
+    padding: 23px 4.54vw 17px 2.62vw;
+  }
+
+  .review-text {
+    font-size: 1.21vw;
+    line-height: 1.81vw;
+    margin: 0 0 19px 0;
+  }
+
+  .reviews_avatar {
+    width: 9.07vw;
+    margin-right: 38px;
+  }
+
+  .name-of-reviewer {
+    font-size: 1.71vw;
+    margin-bottom: 15px;
+  }
+
+  .author-of-review {
+    display: flex;
+  }
+
+  .facebook-icon {
+    width: 1.81vw;
+  }
+
+  /*cost*/
+
+  .cost {
+    padding: 104px 25.81vw 110px 7.46vw;
+    width: 80%;
+  }
+
+  .block-cost-title {
+    font-size: 3.23vw;
+    line-height: 6.93vw;
+    width: 80%;
+    margin-bottom: 4.3%;
+  }
+
+  .cost-paragraph {
+    font-size: 1.01vw;
+    width: 17vw;
+    line-height: 101.38%;
+  }
+
+  .cost-container-flex-item {
+    max-width: 37%;
+    margin-right: 8%;
+  }
+
+  .cost-subtitle {
+    width: 14.11vw;
+    font-size: 1.41vw;
+    line-height: 101.38%;
+    margin-bottom: 6px;
+  }
+
+  .cost-number {
+    font-size: 4.7vw;
+    line-height: 101.38%;
+    margin-bottom: 5.1%;
+  }
+
+  /*footer*/
+
+  footer {
+    padding: 29px 10.08vw 26px 7.06vw;
+  }
+
+  .footer-item {
+    display: flex;
+    margin: 0 0 84px 0;
+  }
+
+  .logo-footer {
+    width: 6.75vw;
+    margin: 0 0 17px 0;
+  }
+
+  .socials {
+    width: 13vw;
+    margin: 0 53.02vw 0 0;
+  }
+
+  .inst-footer {
+    width: 1.92vw;
+    margin-right: 10px;
+  }
+
+  .facebook-footer {
+    width: 1.92vw;
+    margin-right: 12px;
+  }
+
+  .vk-footer {
+    width: 1.92vw;
+    margin-right: 14px;
+  }
+
+  .viber-footer {
+    width: 1.92vw;
+  }
+
+  .contacts {
+    width: 18vw;
+    margin: 3px 0 0 0;
+  }
+
+  .phone {
+    margin-bottom: 10px;
+  }
+
+  .phone-img {
+    width: 1.61vw;
+    margin-right: 13px;
+  }
+
+  .phone-number {
+    width: 14.11vw;
+    font-size: 1.41vw;
+  }
+
+  .letter-img {
+    width: 1.61vw;
+    margin-right: 13px;
+  }
+
+  .mail-address {
+    width: 14.11vw;
+    font-size: 1.41vw;
+  }
+
+  .data {
+    font-size: 1.01vw;
+    width: 12vw;
+  }
+}
+
+@media (min-width: 1280px) {
+  /*header*/
+
+  header {
+    padding: 21px 17.08vw 0 8.4vw;
+  }
+
+  .logo {
+    width: 8.75vw;
+  }
+
+  .planet-img {
+    width: 1.72vw;
+    margin-right: 8px;
+  }
+
+  .clock-img {
+    width: 1.72vw;
+    margin-right: 10px;
+  }
+
+  .calendar-img {
+    width: 1.72vw;
+    margin-right: 13px;
+  }
+
+  .timing-item-one {
+    display: flex;
+    width: 11.8vw;
+    margin-right: 38px;
+    font-size: 1.56vw;
+  }
+
+  .timing-item-two {
+    display: flex;
+    width: 9.06vw;
+    margin-right: 45px;
+    font-size: 1.56vw;
+  }
+
+  .timing-item-three {
+    display: flex;
+    width: 10.8vw;
+    font-size: 1.56vw;
+  }
+
+  .how-watch-movies {
+    font-size: 6.25vw;
+    width: 44.8vw;
+    margin-bottom: 22px;
+    line-height: 6.35vw;
+  }
+
+  .watch-film-item {
+    font-size: 1.56vw;
+    width: 32.34vw;
+    line-height: 2.34vw;
+  }
+
+  .director-img {
+    width: 23.75vw;
+    margin-left: 13.96vw;
+  }
+
+  .watch-film {
+    margin-bottom: 77px;
+  }
+
+  .quote {
+    width: 37.79vw;
+    height: 15.63vw;
+    padding: 20px 1.88vw 20px 1.74vw;
+    border-radius: 0.39vw;
+    margin-left: 254px;
+  }
+
+  .quote-item {
+    font-size: 1.95vw;
+    line-height: 2.5vw;
+  }
+
+  .author {
+    margin-top: 6px;
+    font-size: 1.56vw;
+    text-align: end;
+  }
+
+  /*about-course*/
+
+  .about-course {
+    margin: 0px 6.25vw 0px 8.4vw;
+  }
+
+  .about-course-title {
+    font-size: 3.82vw;
+    margin-top: 91px;
+    margin-bottom: 51.5px;
+  }
+
+  .main-info {
+    display: flex;
+    width: 100%;
+  }
+
+  .all-text {
+    width: 55%;
+    font-size: 1.67vw;
+    margin: 0px 10.56vw 36.7px 0px;
+    padding: 0px;
+  }
+
+  .text {
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 36px;
+  }
+
+  .main-image {
+    margin-top: 29.5px;
+    width: 25%;
+    min-width: 25.42vw;
+  }
+
+  .main-image p {
+    margin: 0px;
+  }
+  .main-image img {
+    width: 100%;
+    height: 23.89vw;
+    margin-left: -10.63vw;
+  }
+
+  .shedule {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  .shedule h3 {
+    padding-top: 60px;
+    font-size: 1.74vw;
+    margin-bottom: 8.5px;
+  }
+
+  .shedule div {
+    width: 20%;
+    margin: 0px;
+  }
+  .shedule p {
+    max-width: 160px;
+    font-size: 1.25vw;
+  }
+
+  .shedule-image {
+    display: block;
+    padding-right: 119px;
+  }
+  .shedule-image img {
+    position: relative;
+  }
+
+  /*class-format*/
+
+  .class-format {
+    margin: 147px 6.25vw 0px 8.33vw;
+  }
+
+  .class-format h1 {
+    font-size: 3.82vw;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .description-of-classes {
+    display: flex;
+    width: 100%;
+  }
+
+  .vebinar {
+    width: 18.82vw;
+    margin-right: 8.47vw;
+  }
+
+  .access {
+    width: 20.83vw;
+    margin-right: 8.47vw;
+  }
+
+  .communication {
+    width: 18.82vw;
+  }
+
+  .class-format h3 {
+    font-family: Roboto;
+    font-size: 1.74vw;
+    line-height: 130%;
+    color: #1e4681;
+    margin-bottom: 8px;
+  }
+
+  .class-format p {
+    font-family: Roboto;
+    font-size: 1.25vw;
+    line-height: 130%;
+  }
+
+  /*knowledge*/
+
+  .knowledge {
+    margin: 185px 6.25vw 0px 8.33vw;
+  }
+
+  .knowledge h1 {
+    font-family: Roboto Slab;
+    font-size: 3.82vw;
+    line-height: 101.38%;
+    margin-bottom: 55px;
+  }
+
+  .knowledge ul {
+    margin-right: 30px;
+    width: 53%;
+  }
+
+  .knowledge li {
+    font-size: 1.67vw;
+  }
+
+  .knowledge span {
+    display: block;
+    font-family: Roboto;
+    font-size: 1.67vw;
+    line-height: 150%;
+  }
+
+  /*course-program*/
+
+  .course-program {
+    width: 100%;
+  }
+
+  .block-4-title {
+    font-size: 3.82vw;
+    line-height: 3.82vw;
+    margin: 91px 0px 127px 8.75vw;
+    width: 68.05vw;
+  }
+
+  .program-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-left: 2.3%;
+    margin-bottom: 121px;
+    padding: 0px;
+  }
+
+  .program-container-item {
+    width: 27.71vw;
+    height: 22.78vw;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    margin-bottom: 3%;
+    margin-left: 0px;
+    margin-right: 3%;
+    padding: 0px;
+  }
+
+  .block-4-subtitle {
+    font-size: 2.08vw;
+    line-height: 97%;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-bottom: 0px;
+  }
+
+  .program-date-info {
+    font-size: 1.74vw;
+    line-height: 130%;
+    margin-top: 10%;
+    margin-left: 4%;
+  }
+
+  .program-date-info-last {
+    font-size: 1.74vw;
+    line-height: 130%;
+    margin-top: 3%;
+    margin-left: 4%;
+  }
+
+  /*reviews*/
+
+  .reviews {
+    background-color: #efefef;
+    padding: 91px 0px 111px 8.75vw;
+    width: 100%;
+  }
+
+  .course-count {
+    font-size: 3.82vw;
+    line-height: 4.4vw;
+    margin: 0 0 65px 0;
+    width: 68.05vw;
+  }
+
+  .reviews_item {
+    width: 61.8vw;
+    height: 35.23vw;
+    border-radius: 2.34vw;
+    padding: 40px 3.19vw 29px 3.13vw;
+  }
+
+  .review-text {
+    font-size: 1.56vw;
+    line-height: 2.34vw;
+    margin: 0 0 38px 0;
+  }
+
+  .reviews_avatar {
+    width: 12.03vw;
+    margin-right: 47px;
+  }
+
+  .name-of-reviewer {
+    font-size: 2.34vw;
+    margin-bottom: 27px;
+  }
+
+  .facebook-icon {
+    width: 2.5vw;
+  }
+
+  /*cost*/
+
+  .cost {
+    padding: 191px 0px 199px 8.75vw;
+    width: 100vw;
+  }
+
+  .block-cost-title {
+    font-size: 3.82vw;
+    line-height: 4.4vw;
+    margin: 0 0 65px 0;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  .cost-paragraph {
+    font-size: 1.41vw;
+    width: 22.8vw;
+    line-height: 101.38%;
+  }
+
+  .cost-container-flex-item {
+    max-width: 37%;
+    margin-right: 8%;
+  }
+
+  .cost-subtitle {
+    width: 17.97vw;
+    font-size: 1.95vw;
+    line-height: 101.38%;
+    margin-bottom: 6px;
+  }
+
+  .cost-number {
+    font-size: 4.7vw;
+    line-height: 101.38%;
+    margin-bottom: 5.1%;
+  }
+
+  /*footer*/
+
+  footer {
+    padding: 50px 0px 45px 8.75vw;
+  }
+
+  .footer-item {
+    display: flex;
+    margin: 0 0 147px 0;
+  }
+
+  .logo-footer {
+    width: 8.98vw;
+    margin: 0 0 30px 0;
+  }
+
+  .socials {
+    width: 18vw;
+    margin: 0 37vw 0 0;
+  }
+
+  .inst-footer {
+    width: 2.58vw;
+    margin-right: 18px;
+  }
+
+  .facebook-footer {
+    width: 2.58vw;
+    margin-right: 21px;
+  }
+
+  .vk-footer {
+    width: 2.58vw;
+    margin-right: 25px;
+  }
+
+  .viber-footer {
+    width: 2.58vw;
+  }
+
+  .contacts {
+    width: 23.91vw;
+    margin: 4px 0 0 0;
+  }
+
+  .phone {
+    margin-bottom: 13px;
+  }
+
+  .phone-img {
+    width: 2.11vw;
+    margin-right: 22px;
+  }
+
+  .phone-number {
+    width: 17.97vw;
+    font-size: 1.95vw;
+  }
+
+  .letter-img {
+    width: 2.11vw;
+    margin-right: 22px;
+  }
+
+  .mail-address {
+    width: 18.98vw;
+    font-size: 1.95vw;
+  }
+
+  .data {
+    font-size: 1.41vw;
+    width: 16.8vw;
+  }
+}

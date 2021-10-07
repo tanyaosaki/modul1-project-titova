@@ -290,7 +290,7 @@ header {
   font-weight: bold;
   font-size: 6.93vw;
   line-height: 6.93vw;
-  margin: 42px 8.53vw 53px 9.6vw;
+  margin: 16vw 8.53vw 53px 9.6vw;
   padding: 0px;
 }
 
@@ -469,13 +469,13 @@ header {
 
 footer {
   background-color: #000000;
-  padding: 23px 52.27vw 19px 14.93vw;
+  padding: 23px 52.27vw 19px 10.13vw;
   margin: 0px;
 }
 
 .logo-footer {
   width: 14.13vw;
-  margin: 0 0 14px 0;
+  margin: 0 0 19px 0;
 }
 
 .socials {
@@ -787,7 +787,7 @@ footer {
     font-size: 3.23vw;
     line-height: 6.93vw;
     width: 65.6vw;
-    margin: 55px 9.07vw 64px 7.46vw;
+    margin: 12.20vw 9.07vw 64px 7.46vw;
   }
 
   .program-container {
@@ -1233,7 +1233,7 @@ footer {
   .block-4-title {
     font-size: 3.82vw;
     line-height: 3.82vw;
-    margin: 91px 0px 127px 8.75vw;
+    margin: 15.21vw 0px 127px 8.75vw;
     width: 68.05vw;
   }
 
